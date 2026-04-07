@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+fairlearn
+python-multipart
+google-generativeai>=0.8.4
+python-dotenv
+reportlab
+imbalanced-learn
