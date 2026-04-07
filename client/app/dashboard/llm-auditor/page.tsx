@@ -12,7 +12,7 @@ type LlmAuditSuccess = {
   reasoning: string;
 };
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://equinox-backend-y77g.onrender.com";
 
 export default function LlmAuditorPage() {
   const [text, setText] = React.useState("");

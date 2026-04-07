@@ -8,7 +8,7 @@ import { RadialBar, RadialBarChart, ResponsiveContainer } from "recharts";
 import { Badge } from "@/components/ui/badge";
 import { useAuditStore } from "@/store/useAuditStore";
 
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://equinox-backend-y77g.onrender.com";
 
 export default function ReportsPage() {
   const { auditData, geminiExplanation, riskSummary, roiImpact, setGeminiExplanation } = useAuditStore();

@@ -19,7 +19,7 @@ type UploadResponse = {
   sensitive_feature?: string;
   prediction?: string | null;
 };
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://equinox-backend-y77g.onrender.com";
 
 export default function DashboardHomePage() {
   const router = useRouter();

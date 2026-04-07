@@ -12,7 +12,7 @@ const initialData = [
   { metric: "Group C", before: 58, after: 84 },
   { metric: "Group D", before: 71, after: 90 },
 ];
-const API_BASE = "http://127.0.0.1:8000";
+const API_BASE = "https://equinox-backend-y77g.onrender.com";
 
 type AuditJson = { bias_score: number; demographic_parity_difference: number };
 
