@@ -65,7 +65,7 @@ def _gemini_text_or_mock(prompt: str, mock_payload: str) -> str:
 app = FastAPI(title="Equinox AI API", version="1.0.0")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3001", "http://127.0.0.1:3001"],
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
