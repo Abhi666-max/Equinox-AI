@@ -1,6 +1,6 @@
 # Equinox AI - Enterprise Bias Auditing
 
-**Vercel Live Demo:** _Coming Soon_
+**Vercel Live Demo:** https://equinox-ai-mu.vercel.app/
 
 Equinox AI is an enterprise-grade fairness and bias auditing platform designed for organizations that need transparent, accountable AI decisions. It enables teams to evaluate model outcomes across sensitive attributes, surface parity gaps, and generate decision-ready audit outputs. The system combines a production-style web experience with explainability-first workflows to support governance, compliance, and responsible deployment.
 
